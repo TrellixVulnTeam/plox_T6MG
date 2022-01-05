@@ -21,7 +21,7 @@ class Var(object):
     BLACKLIST_USERS = set(int(x) for x in os.environ.get("BLACKLIST_USERS", "").split())
     DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "").split())
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "").split())
-    EMOJI = os.environ.get("EMOJI", 😀)
+    EMOJI = os.environ.get("EMOJI", "📨")
     SUPPORT_USERS = set(int(x) for x in os.environ.get("SUPPORT_USERS", "").split())
     PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", -1001726870449)) 
     LYDIA_API_KEY = os.environ.get("LYDIA_API_KEY", None)

@@ -6,7 +6,7 @@ class Var(object):
     API_HASH = os.environ.get("API_HASH", "27e6993af0786f66f96599db6cd10bcc")
     STRING_SESSION = os.environ.get("STRING_SESSION", "1AZWarzoBu1HBcg1iJSTctkrkIJCFvC7K5jVDL6oMDM-3CbP6mclKkfNkfdwGf0a-tJpe_aI3-7_LKu786KkXHFNK-XJeDxStCTLPdKesz8RzpG4KOudgOTJcBP5tVZPeMUO-v_4cBR3zdGpyUhr7bLWiekzi5intfMEKj37LNZaMdMk6IheUcNCXIU9_GkCY29Ht23JRUq2Gcl1QziYoF8fMqnzxv1ybuX5SRvDupcDPbtltczrBQPT9yYDmrDAPZrSxVLXy4jMjf1gaDF6_SWMLoUiDMMYpQrwhtA1YBCp5Tm1DxAJDsrbLNsAVw-svL-Aqaoouzgq1SXZXi7xYmrRKOOZzGv8=")
     DB_URI = os.environ.get("DATABASE_URL", None)
-    TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", ./userbot/DOWNLOADS/)
+    TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./userbot/DOWNLOADS/")
     LOGGER = True
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)

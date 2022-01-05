@@ -1,8 +1,12 @@
 import os
 
 class Var(object):
-    API_ID = int(os.environ.get("API_ID", 18622297))
+    APP_ID = int(os.environ.get("APP_ID", 18622297))
     # 6 is a placeholder
+    # for assistant, fixed, lol
+    
+    API_ID = APP_ID #soja vmro
+    
     API_HASH = os.environ.get("API_HASH", "27e6993af0786f66f96599db6cd10bcc")
     STRING_SESSION = os.environ.get("STRING_SESSION", "1AZWarzoBu1HBcg1iJSTctkrkIJCFvC7K5jVDL6oMDM-3CbP6mclKkfNkfdwGf0a-tJpe_aI3-7_LKu786KkXHFNK-XJeDxStCTLPdKesz8RzpG4KOudgOTJcBP5tVZPeMUO-v_4cBR3zdGpyUhr7bLWiekzi5intfMEKj37LNZaMdMk6IheUcNCXIU9_GkCY29Ht23JRUq2Gcl1QziYoF8fMqnzxv1ybuX5SRvDupcDPbtltczrBQPT9yYDmrDAPZrSxVLXy4jMjf1gaDF6_SWMLoUiDMMYpQrwhtA1YBCp5Tm1DxAJDsrbLNsAVw-svL-Aqaoouzgq1SXZXi7xYmrRKOOZzGv8=")
     DB_URI = os.environ.get("DATABASE_URL", None)

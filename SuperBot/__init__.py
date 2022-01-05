@@ -10,7 +10,7 @@ from SuperBot.helper import functions as superdef
 from var import Var
 from SuperBot.functions import superfunction as topfunc
 
-API_ID = os.environ.get("APP_ID", None)
+API_ID = Var.APP_ID
 API_HASH = os.environ.get("API_HASH", None)
 token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
 assistant = TelegramClient("MadBoy", API_ID, API_HASH).start(bot_token=token)

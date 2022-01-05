@@ -7,6 +7,7 @@ from asyncio import sleep
 from random import choice
 from telethon import events
 from PIL import Image
+from validators.url import url
 from telethon.tl.types import Channel
 
 
